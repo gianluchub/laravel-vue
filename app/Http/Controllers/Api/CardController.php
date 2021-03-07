@@ -10,7 +10,7 @@ class CardController extends Controller
     
     public function index() {
 
-        // $cards = config("cards");
+        $cards = config("cards");
 
         return response()
             ->json($cards);
